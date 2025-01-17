@@ -1,0 +1,66 @@
+body{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu{
+    border: solid #f3e308 2px;
+    background-color: #fcf59d;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.chatboot{
+    position: fixed;
+    background-color: #91cf9b;
+    border:#4b3b47 solid 2px;
+    border-radius: 45%;
+    padding: 5px 20px;
+    bottom: 15px;
+    right: 15px;
+
+}
+.contain_p{
+    display: flex;
+    margin: 0px 50px 0px 50px;
+    padding: 10px;
+    border: solid blue 2px;
+}
+main{
+    width: 60%;
+    border: solid #a52716 2px;
+    padding-bottom: 10px;
+
+}
+article{
+    text-align: center;
+    margin: 10px;
+    border: solid #f163cd 2px;
+}
+aside{
+    width: 40%;
+    text-align: center;
+    border: solid #30e94f 2px;
+}
+article h1, article p{
+    margin: 10px;
+    border: solid #63f1d9 2px;
+}
+/* es millor modificar la img dins dun div per en el futur treballar millor amb ella*/
+div img {
+    width: 100%;
+}
+h1{
+    color: rgb(51, 145, 161);
+    font-weight: 500;
+}
+.boto{
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(33, 121, 172);
+    color: white;
+    font-weight: bold;
+}
+.boto:hover{
+    background-color: #af3cbe;
+}
