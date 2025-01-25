@@ -11,36 +11,113 @@ body{
     text-align: center;
     width: 3em;
  }
- .s1{
+.s1{
     background-color: rgb(214, 216, 71);
+   /* order: 1;*/
 }
 .s2{
     background-color: rgb(20, 131, 38);
+    /*order: 2;*/
 }
 .s3{
     background-color: rgb(128, 179, 149);
+   /* order: 3;*/
 }
-.container2{
-    display: flex;
+.s4{
+    background-color: rgb(29, 167, 52);
+  
 }
-.container3{
-    display: flex;
-    justify-content:space-around;
+.s5{
+    background-color: rgb(0, 0, 0);
+  
 }
-.container4{
-    display: flex;
-    justify-content: right;
+.container{
+   display: flex;
+    border:#4b3b47 solid 1px;
+}
+.container11{
+    border:#4b3b47 solid 1px;
+    width: 80%;
+}
+.container13{
+   
+    justify-content:space-evenly; /*Mateix espais entre ells*/
+}
+.container14{
+   
+    justify-content: end; /*moure al final un alradera del altre*/
     gap: 10px;
 }
-.container5{
-    display: flex;
+.container15{
     justify-content:space-around;
     height: 200px;
+    /*
+    gap: 10px*/
 }
-.container6{
-    display: flex;
+.container16{
+    height: 400px;
     justify-content:center;
     align-items: center;
     gap: 10px;
 }
+.container17{
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 400px;
+    gap: 10px;
+}
+.container18{
+    flex-direction:column;
+    height: 400px;
+}
+.container19{
+    flex-direction:column;
+    gap: 70px;
+}  
+.container110{
+    gap: 10px;
+    height: 400px;
+    flex-direction: column;
+}  
+.groc{
+    background-color: rgb(214, 216, 71);
+}
+.verd{
+    background-color: rgb(20, 131, 38);
+}
+.blau{
+    background-color: rgb(49, 176, 235);
+}
+.lila{
+    background-color: rgb(160, 56, 180);
+}
+.negre{
+    background-color: rgb(0, 0, 0);
 
+}
+.container20{
+    height: 400px;
+}
+.container21{
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.s21{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container22{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.s22{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
